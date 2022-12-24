@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+main {
+  margin: 0 auto;
+  background: blanchedalmond;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  max-width: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.video-container {
+  background: #eee;
+  width: 40rem;
+  height: 40rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 5px solid greenyellow;
+}
